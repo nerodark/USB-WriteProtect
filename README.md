@@ -5,7 +5,7 @@ It has the ability to have concurrent/simultaneous readwrite and readonly device
 
 This project can have multiple purpose where you would want to deny write access to all plugged USB devices except a few ones that you define in the whitelist project.
 
-It can be used to prevent transferring files from a computer to a USB drive. The user can still access to the files on its USB drive in a readonly mode and can transfer them to the PC but cannot transfer files from the PC to the USB drive.
+It can be used to prevent transferring files from a computer to a USB drive. The user can still access to the files on its USB drive in a readonly mode and can transfer them to the PC but cannot transfer files from the PC to the USB drive. Only an administrator should have whitelisted his own USB drives.
 
 Of course, the logged in user should be a regular limited user (not administrator), so the Windows settings cannot be changed and the service process cannot be killed. To be really effective, the computer should have limited or no access to internet at all so that people cannot transfer files in any other way (cloud storage) except USB.
 
